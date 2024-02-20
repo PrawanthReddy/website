@@ -1,0 +1,20 @@
+project: 
+  type: website
+  output-dir: docs
+
+website: 
+  navbar:
+    left: 
+      - text: "About Me"
+        href: page1.qmd
+      - text: "Educational Qualification"
+        href: page2.qmd
+      - text: "Co-Curricular Activities"
+        href: page3.qmd
+      - text: "page4"
+        href: page4.qmd
+
+format: 
+  html: 
+    theme: solar
+     
